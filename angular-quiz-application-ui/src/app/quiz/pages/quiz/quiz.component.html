@@ -1,0 +1,20 @@
+
+   <mat-card-content>
+     <div class="select-row">
+        <p>Please select a quiz to start:</p>
+       <form [formGroup]="quizSelectorForm">
+         <mat-form-field appearance="fill">
+           <mat-label>Select a quiz</mat-label>
+           <mat-select formControlName="quiz">
+             <mat-option *ngFor="let option of (vm$ | async)?.quizzes"
+                         [value]="option" [disabled]="option.isSubmitted">
+               {{option.name}}
+             </mat-option>
+           </mat-select>
+         </mat-form-field>
+       </form>
+     </div>
+     <div>
+       <app-answer-form *ngIf="(vm$ | async)?.selectedQuiz as selectedQuiz" [quiz]="selectedQuiz"></app-answer-form>
+     </div>
+   </mat-card-content>

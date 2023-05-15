@@ -1,0 +1,13 @@
+.result-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.last-item .result-item {
+  color: crimson;
+}
+
+.continue-btn {
+  display: flex;
+  justify-content: center;
+}

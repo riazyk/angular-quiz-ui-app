@@ -1,0 +1,15 @@
+<mat-card-content>
+  <h4>Results:</h4>
+  <p>{{totalScore}} of {{totalQuestions}} questions answered correctly</p>
+  <mat-list>
+    <mat-list-item *ngFor="let result of results; let last = last" [class.last-item]="last">
+      <div class="result-item">
+        <h4>{{result.name}}</h4>
+        <p>{{result.score}} of {{result.total}}</p>
+      </div>
+    </mat-list-item>
+  </mat-list>
+  <div class="continue-btn">
+    <button mat-raised-button color="primary">Click here to continue</button>
+  </div>
+</mat-card-content>

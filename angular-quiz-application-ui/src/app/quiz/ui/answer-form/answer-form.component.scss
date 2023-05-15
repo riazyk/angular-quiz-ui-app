@@ -1,0 +1,35 @@
+.nav-buttons {
+  display: flex;
+  justify-content: center;
+
+  button {
+    margin: 0 0.5rem;
+  }
+}
+
+.submit-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.answer-form {
+  display: flex;
+  justify-content: space-between;
+}
+.form-wrapper {
+  flex: 1;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 576px) {
+  .answer-form {
+    flex-direction: column-reverse;
+  }
+  .submit-buttons {
+    flex-direction: column;
+    button {
+      margin-top: 2em;
+    }
+  }
+}

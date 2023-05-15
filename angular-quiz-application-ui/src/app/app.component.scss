@@ -1,0 +1,17 @@
+.app-wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+mat-card {
+  width: 700px;
+}
+
+@media screen and (max-width: 576px) {
+  mat-card {
+    width: 100%;
+    height: 100vh;
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "data": [ {
+    "id": 1,
+    "name": "Angular",
+    "questions": [
+      {
+        "id": 1,
+        "question": "What is Angular?",
+        "options": [
+          { "id": 1, "value": "A programming language" },
+          { "id": 2, "value": "A web development framework" },
+          { "id": 3, "value": "A database management system" },
+          { "id": 4, "value": "An operating system" }
+        ],
+        "answer": 2
+      },
+      {
+        "id": 2,
+        "question": "What is the current stable version of Angular?",
+        "options": [
+          { "id": 1, "value": " Angular 1" },
+          { "id": 2, "value": "Angular 2" },
+          { "id": 3, "value": "Angular 11" },
+          { "id": 4, "value": "Angular 16" }
+        ],
+        "answer": 4
+      },
+      {
+        "id": 3,
+        "question": "What is TypeScript?",
+        "options": [
+          { "id": 1, "value": "A web development framework" },
+          { "id": 2, "value": "An operating system" },
+          { "id": 3, "value": "Super set of Javascript" },
+          { "id": 4, "value": "A markup language" }
+        ],
+        "answer": 3
+      },
+      {
+        "id": 4,
+        "question": "What is the name of the main file in an Angular application?",
+        "options": [
+          { "id": 1, "value": "index.js" },
+          { "id": 2, "value": "main.ts" },
+          { "id": 3, "value": "app.js" },
+          { "id": 4, "value": " bundle.js" }
+        ],
+        "answer": 2
+      },
+      {
+        "id": 5,
+        "question": "What is the command used to generate a new component in an Angular application?",
+        "options": [
+          { "id": 1, "value": "ng generate" },
+          { "id": 2, "value": "ng create" },
+          { "id": 3, "value": "ng add" },
+          { "id": 4, "value": "ng update" }
+        ],
+        "answer": 1
+      }
+    ]
+  },
+    {
+      "id": 2,
+      "name": "Java",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is Java?",
+          "options": [
+            { "id": 1, "value": " A programming language" },
+            { "id": 2, "value": "A web browser" },
+            { "id": 3, "value": "A database management system" },
+            { "id": 4, "value": "An operating system" }
+          ],
+          "answer": 1
+        },
+        {
+          "id": 4,
+          "question": "What is the keyword used to declare a variable that cannot be changed once initialized?",
+          "options": [
+            { "id": 1, "value": "static" },
+            { "id": 2, "value": "final" },
+            { "id": 3, "value": "volatile" },
+            { "id": 4, "value": "transient" }
+          ],
+          "answer": 2
+        },
+        {
+          "id": 2,
+          "question": "What is the main feature of Java that makes it platform-independent?",
+          "options": [
+            { "id": 1, "value": "Bytecode" },
+            { "id": 2, "value": "Garbage collection" },
+            { "id": 3, "value": "Reflection" },
+            { "id": 4, "value": "Multithreading" }
+          ],
+          "answer": 1
+        },
+        {
+          "id": 3,
+          "question": "What is the name of the Java Virtual Machine implementation developed by Oracle?",
+          "options": [
+            { "id": 1, "value": "JRE" },
+            { "id": 2, "value": "JDK" },
+            { "id": 3, "value": "JVM" },
+            { "id": 4, "value": "JAR" }
+          ],
+          "answer": 3
+        },
+        {
+          "id": 5,
+          "question": "What is the purpose of the \"try-catch\" block in Java?",
+          "options": [
+            { "id": 1, "value": "To handle errors and exceptions" },
+            { "id": 2, "value": "To define a method" },
+            { "id": 3, "value": "To instantiate an object" },
+            { "id": 4, "value": "To create a loop" }
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Design patterns",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the name of the design pattern that allows for the creation of objects without exposing the creation logic?",
+          "options": [
+            { "id": 1, "value": "Abstract Factory" },
+            { "id": 2, "value": "Singleton" },
+            { "id": 3, "value": "Prototype" },
+            { "id": 4, "value": "Builder" }
+          ],
+          "answer": 1
+        },
+        {
+          "id": 2,
+          "question": "What is the name of the design pattern that allows objects to be replaced with a different object that provides the same functionality?",
+          "options": [
+            { "id": 1, "value": "Adapter" },
+            { "id": 2, "value": "Bridge" },
+            { "id": 3, "value": "Decorator" },
+            { "id": 4, "value": "Proxy" }
+          ],
+          "answer": 1
+        },
+        {
+          "id": 3,
+          "question": "What is the name of the design pattern that provides a way to ensure that only one instance of a class is created?",
+          "options": [
+            { "id": 1, "value": "Singleton" },
+            { "id": 2, "value": "Factory Method" },
+            { "id": 3, "value": "Abstract Factory" },
+            { "id": 4, "value": "Builder" }
+          ],
+          "answer": 1
+        },
+        {
+          "id": 4,
+          "question": "What is the name of the design pattern that provides a way to access elements of an object sequentially without exposing its underlying representation?",
+          "options": [
+            { "id": 1, "value": "Composite" },
+            { "id": 2, "value": "Iterator" },
+            { "id": 3, "value": "Proxy" },
+            { "id": 4, "value": "Decorator" }
+          ],
+          "answer": 2
+        },
+        {
+          "id": 5,
+          "question": "What is the name of the design pattern that separates the construction of a complex object from its representation, allowing for the same construction process to create different representations?",
+          "options": [
+            { "id": 1, "value": "Factory Method" },
+            { "id": 2, "value": "Abstract Factory" },
+            { "id": 3, "value": "Builder" },
+            { "id": 4, "value": "Prototype" }
+          ],
+          "answer": 2
+        }
+      ]
+    }
+  ]
+}
